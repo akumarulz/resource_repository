@@ -25,6 +25,12 @@
             <option value="Ms" <?php if (isset($member) && $member->getTitle() == 'Ms') {
                 echo 'selected';
 } ?>>Ms</option>
+    <option value="Dr" <?php if (isset($member) && $member->getTitle() == 'Dr') {
+                echo 'selected';
+} ?> >Dr</option>
+                <option value="Prof" <?php if (isset($member) && $member->getTitle() == 'Prof') {
+                echo 'selected';
+} ?> >Prof</option>
             </select>
             <br>
             <br><label for="fname">Firstname</label><input id="fname" type="text" name="user[first_name]" 
