@@ -124,7 +124,7 @@ $csv = new database_query($pdo,'download_history');
 $search = ['user_id'=>$userid];
 $num = $csv->selectcol($search); 
 
-//only provide recommendations after more than 5 occurances
+//only provide recommendations after more than 5 occurances of down loads
 if(sizeof($num) > 4){
 		//recommender java wsdl access
 		
