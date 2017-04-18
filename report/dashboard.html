@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Dashboard for C:\Program Files (x86)\EasyPHP-Devserver-16.1\eds-www\resource_repository</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/nv.d3.min.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+  <!--[if lt IE 9]>
+  <script src="js/html5shiv.min.js"></script>
+  <script src="js/respond.min.js"></script>
+  <![endif]-->
+ </head>
+ <body>
+  <header>
+   <div class="container">
+    <div class="row">
+     <div class="col-md-12">
+      <ol class="breadcrumb">
+        <li><a href="index.html">C:\Program Files (x86)\EasyPHP-Devserver-16.1\eds-www\resource_repository</a></li>
+        <li class="active">(Dashboard)</li>
+
+      </ol>
+     </div>
+    </div>
+   </div>
+  </header>
+  <div class="container">
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Classes</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="classCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="classComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="resource.php.html#302">resourceobj</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="resource.php.html#363">user_owned_resourceobj</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reportobj.php.html#7">reportobj</a></td><td class="text-right">39%</td></tr>
+       <tr><td><a href="resource.php.html#239">resourcedocument</a></td><td class="text-right">60%</td></tr>
+       <tr><td><a href="inboxitemobj.php.html#2">inboxitemobj</a></td><td class="text-right">70%</td></tr>
+       <tr><td><a href="topicobj.php.html#2">topicobj</a></td><td class="text-right">77%</td></tr>
+       <tr><td><a href="resource.php.html#2">resource</a></td><td class="text-right">82%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="resource.php.html#302">resourceobj</a></td><td class="text-right">306</td></tr>
+       <tr><td><a href="resource.php.html#363">user_owned_resourceobj</a></td><td class="text-right">306</td></tr>
+       <tr><td><a href="reportobj.php.html#7">reportobj</a></td><td class="text-right">90</td></tr>
+       <tr><td><a href="resource.php.html#2">resource</a></td><td class="text-right">70</td></tr>
+       <tr><td><a href="topicobj.php.html#2">topicobj</a></td><td class="text-right">37</td></tr>
+       <tr><td><a href="inboxitemobj.php.html#2">inboxitemobj</a></td><td class="text-right">36</td></tr>
+       <tr><td><a href="resource.php.html#239">resourcedocument</a></td><td class="text-right">11</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Methods</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="methodCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="methodComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="inboxitemobj.php.html#32"><abbr title="inboxitemobj::setItem">setItem</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="inboxitemobj.php.html#38"><abbr title="inboxitemobj::setUser_id">setUser_id</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="resource.php.html#372"><abbr title="user_owned_resourceobj::getHTML">getHTML</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="resource.php.html#365"><abbr title="user_owned_resourceobj::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="resource.php.html#311"><abbr title="resourceobj::getHTML">getHTML</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="resource.php.html#304"><abbr title="resourceobj::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="resource.php.html#283"><abbr title="resourcedocument::updateResource">updateResource</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="resource.php.html#167"><abbr title="resource::getHTML">getHTML</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="resource.php.html#129"><abbr title="resource::getUser_id">getUser_id</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="resource.php.html#126"><abbr title="resource::getResource_id">getResource_id</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="resource.php.html#123"><abbr title="resource::getDate">getDate</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="resource.php.html#112"><abbr title="resource::setRating">setRating</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reportobj.php.html#70"><abbr title="reportobj::getHTML">getHTML</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reportobj.php.html#62"><abbr title="reportobj::setHTML">setHTML</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="notificationobj.php.html#158"><abbr title="notificationobj::findBlockedMembers">findBlockedMembers</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="memberobj.php.html#215"><abbr title="memberobj::resetPassword">resetPassword</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="inboxitemobj.php.html#90"><abbr title="inboxitemobj::getHTML">getHTML</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="topicobj.php.html#112"><abbr title="topicobj::getHTML">getHTML</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="resource.php.html#189"><abbr title="resourceURL::URLchecker">URLchecker</abbr></a></td><td class="text-right">80%</td></tr>
+       <tr><td><a href="resource.php.html#244"><abbr title="resourcedocument::setFilename">setFilename</abbr></a></td><td class="text-right">80%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="resource.php.html#372"><abbr title="user_owned_resourceobj::getHTML">getHTML</abbr></a></td><td class="text-right">272</td></tr>
+       <tr><td><a href="resource.php.html#311"><abbr title="resourceobj::getHTML">getHTML</abbr></a></td><td class="text-right">272</td></tr>
+       <tr><td><a href="reportobj.php.html#70"><abbr title="reportobj::getHTML">getHTML</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="inboxitemobj.php.html#90"><abbr title="inboxitemobj::getHTML">getHTML</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="resource.php.html#283"><abbr title="resourcedocument::updateResource">updateResource</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="topicobj.php.html#112"><abbr title="topicobj::getHTML">getHTML</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="resource.php.html#189"><abbr title="resourceURL::URLchecker">URLchecker</abbr></a></td><td class="text-right">2</td></tr>
+       <tr><td><a href="resource.php.html#244"><abbr title="resourcedocument::setFilename">setFilename</abbr></a></td><td class="text-right">2</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <footer>
+    <hr/>
+    <p>
+     <small>Generated by <a href="https://github.com/sebastianbergmann/php-code-coverage" target="_top">php-code-coverage 5.0.2</a> using <a href="https://secure.php.net/" target="_top">PHP 7.0.4</a> with <a href="https://xdebug.org/">Xdebug 2.5.1</a> and <a href="https://phpunit.de/">PHPUnit 6.0.8</a> at Thu Mar 23 20:13:16 GMT 2017.</small>
+    </p>
+   </footer>
+  </div>
+  <script src="js/jquery.min.js" type="text/javascript"></script>
+  <script src="js/bootstrap.min.js" type="text/javascript"></script>
+  <script src="js/holder.min.js" type="text/javascript"></script>
+  <script src="js/d3.min.js" type="text/javascript"></script>
+  <script src="js/nv.d3.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+$(document).ready(function() {
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#classCoverageDistribution svg')
+      .datum(getCoverageDistributionData([2,0,0,0,1,0,0,1,2,1,3,5], "Class Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#methodCoverageDistribution svg')
+      .datum(getCoverageDistributionData([18,0,0,0,0,0,0,0,0,2,0,131], "Method Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getCoverageDistributionData(data, label) {
+    var labels = [
+      '0%',
+      '0-10%',
+      '10-20%',
+      '20-30%',
+      '30-40%',
+      '40-50%',
+      '50-60%',
+      '60-70%',
+      '70-80%',
+      '80-90%',
+      '90-100%',
+      '100%'
+    ];
+    var values = [];
+    $.each(labels, function(key) {
+      values.push({x: labels[key], y: data[key]});
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Cyclomatic Complexity');
+
+    d3.select('#classComplexity svg')
+      .datum(getComplexityData([[100,17,"<a href=\"commentobj.php.html#2\">commentobj<\/a>"],[100,5,"<a href=\"downloadhistoryobj.php.html#3\">downloadhistoryobj<\/a>"],[70.833333333333,23,"<a href=\"inboxitemobj.php.html#2\">inboxitemobj<\/a>"],[97.087378640777,51,"<a href=\"memberobj.php.html#2\">memberobj<\/a>"],[94.736842105263,24,"<a href=\"notificationobj.php.html#2\">notificationobj<\/a>"],[39.344262295082,18,"<a href=\"reportobj.php.html#7\">reportobj<\/a>"],[100,1,"<a href=\"reportobj.php.html#123\">resourceReport<\/a>"],[100,1,"<a href=\"reportobj.php.html#137\">TopicReport<\/a>"],[100,1,"<a href=\"reportobj.php.html#151\">OffenderReport<\/a>"],[82.258064516129,54,"<a href=\"resource.php.html#2\">resource<\/a>"],[96.875,9,"<a href=\"resource.php.html#178\">resourceURL<\/a>"],[60.606060606061,8,"<a href=\"resource.php.html#239\">resourcedocument<\/a>"],[0,17,"<a href=\"resource.php.html#302\">resourceobj<\/a>"],[0,17,"<a href=\"resource.php.html#363\">user_owned_resourceobj<\/a>"],[77.049180327869,28,"<a href=\"topicobj.php.html#2\">topicobj<\/a>"]], 'Class Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Method Complexity');
+
+    d3.select('#methodComplexity svg')
+      .datum(getComplexityData([[100,4,"<a href=\"commentobj.php.html#11\">commentobj::validate<\/a>"],[100,1,"<a href=\"commentobj.php.html#20\">commentobj::setComment_id<\/a>"],[100,1,"<a href=\"commentobj.php.html#23\">commentobj::setResourceid<\/a>"],[100,1,"<a href=\"commentobj.php.html#26\">commentobj::setUserid<\/a>"],[100,1,"<a href=\"commentobj.php.html#29\">commentobj::setTopicid<\/a>"],[100,2,"<a href=\"commentobj.php.html#32\">commentobj::setComment<\/a>"],[100,1,"<a href=\"commentobj.php.html#41\">commentobj::setReply<\/a>"],[100,1,"<a href=\"commentobj.php.html#44\">commentobj::setConnection<\/a>"],[100,2,"<a href=\"commentobj.php.html#47\">commentobj::saveRcomment<\/a>"],[100,2,"<a href=\"commentobj.php.html#59\">commentobj::saveTcomment<\/a>"],[100,1,"<a href=\"commentobj.php.html#71\">commentobj::removeComment<\/a>"],[100,1,"<a href=\"downloadhistoryobj.php.html#8\">downloadhistoryobj::setConn<\/a>"],[100,1,"<a href=\"downloadhistoryobj.php.html#11\">downloadhistoryobj::setUserid<\/a>"],[100,1,"<a href=\"downloadhistoryobj.php.html#15\">downloadhistoryobj::setResourceId<\/a>"],[100,2,"<a href=\"downloadhistoryobj.php.html#19\">downloadhistoryobj::insert<\/a>"],[100,4,"<a href=\"inboxitemobj.php.html#13\">inboxitemobj::ValidateTitle<\/a>"],[100,4,"<a href=\"inboxitemobj.php.html#20\">inboxitemobj::ValidateMessage<\/a>"],[100,1,"<a href=\"inboxitemobj.php.html#29\">inboxitemobj::setMessageid<\/a>"],[0,1,"<a href=\"inboxitemobj.php.html#32\">inboxitemobj::setItem<\/a>"],[100,1,"<a href=\"inboxitemobj.php.html#35\">inboxitemobj::setConn<\/a>"],[0,1,"<a href=\"inboxitemobj.php.html#38\">inboxitemobj::setUser_id<\/a>"],[100,1,"<a href=\"inboxitemobj.php.html#42\">inboxitemobj::setReciever<\/a>"],[100,1,"<a href=\"inboxitemobj.php.html#45\">inboxitemobj::setSender<\/a>"],[100,2,"<a href=\"inboxitemobj.php.html#48\">inboxitemobj::setTitle<\/a>"],[100,2,"<a href=\"inboxitemobj.php.html#56\">inboxitemobj::setMessage<\/a>"],[100,1,"<a href=\"inboxitemobj.php.html#66\">inboxitemobj::sendMessage<\/a>"],[100,1,"<a href=\"inboxitemobj.php.html#76\">inboxitemobj::removeMessage<\/a>"],[100,1,"<a href=\"inboxitemobj.php.html#82\">inboxitemobj::setMessageRead<\/a>"],[0,2,"<a href=\"inboxitemobj.php.html#90\">inboxitemobj::getHTML<\/a>"],[100,4,"<a href=\"memberobj.php.html#16\">memberobj::validateSummary<\/a>"],[100,4,"<a href=\"memberobj.php.html#24\">memberobj::validate<\/a>"],[100,3,"<a href=\"memberobj.php.html#35\">memberobj::validatemiddlename<\/a>"],[100,2,"<a href=\"memberobj.php.html#43\">memberobj::validateEmail<\/a>"],[100,3,"<a href=\"memberobj.php.html#51\">memberobj::validatepw<\/a>"],[100,1,"<a href=\"memberobj.php.html#61\">memberobj::setConn<\/a>"],[100,1,"<a href=\"memberobj.php.html#64\">memberobj::setUser_id<\/a>"],[100,1,"<a href=\"memberobj.php.html#67\">memberobj::setTitle<\/a>"],[100,2,"<a href=\"memberobj.php.html#70\">memberobj::setFirstname<\/a>"],[100,2,"<a href=\"memberobj.php.html#78\">memberobj::setMiddlename<\/a>"],[100,2,"<a href=\"memberobj.php.html#87\">memberobj::setSurname<\/a>"],[100,2,"<a href=\"memberobj.php.html#96\">memberobj::setEmail<\/a>"],[100,2,"<a href=\"memberobj.php.html#105\">memberobj::setLocation<\/a>"],[100,2,"<a href=\"memberobj.php.html#114\">memberobj::setSchool<\/a>"],[100,2,"<a href=\"memberobj.php.html#124\">memberobj::setPassword<\/a>"],[100,2,"<a href=\"memberobj.php.html#132\">memberobj::setPersonalSummary<\/a>"],[100,1,"<a href=\"memberobj.php.html#144\">memberobj::getUser_id<\/a>"],[100,1,"<a href=\"memberobj.php.html#147\">memberobj::getTitle<\/a>"],[100,1,"<a href=\"memberobj.php.html#150\">memberobj::getFirstname<\/a>"],[100,1,"<a href=\"memberobj.php.html#154\">memberobj::getMiddlename<\/a>"],[100,1,"<a href=\"memberobj.php.html#157\">memberobj::getSurname<\/a>"],[100,1,"<a href=\"memberobj.php.html#160\">memberobj::getEmail<\/a>"],[100,1,"<a href=\"memberobj.php.html#163\">memberobj::getLocation<\/a>"],[100,1,"<a href=\"memberobj.php.html#166\">memberobj::getSchool<\/a>"],[100,1,"<a href=\"memberobj.php.html#169\">memberobj::getPersonalSummary<\/a>"],[100,3,"<a href=\"memberobj.php.html#175\">memberobj::save<\/a>"],[100,2,"<a href=\"memberobj.php.html#191\">memberobj::savenew<\/a>"],[100,1,"<a href=\"memberobj.php.html#207\">memberobj::saveSummary<\/a>"],[0,1,"<a href=\"memberobj.php.html#215\">memberobj::resetPassword<\/a>"],[100,1,"<a href=\"notificationobj.php.html#20\">notificationobj::setNotificationId<\/a>"],[100,1,"<a href=\"notificationobj.php.html#23\">notificationobj::setColumn<\/a>"],[100,1,"<a href=\"notificationobj.php.html#26\">notificationobj::setReciever<\/a>"],[100,1,"<a href=\"notificationobj.php.html#29\">notificationobj::setResourceId<\/a>"],[100,1,"<a href=\"notificationobj.php.html#32\">notificationobj::setTopicId<\/a>"],[100,1,"<a href=\"notificationobj.php.html#35\">notificationobj::setSenderId<\/a>"],[100,1,"<a href=\"notificationobj.php.html#38\">notificationobj::setNotification<\/a>"],[100,1,"<a href=\"notificationobj.php.html#41\">notificationobj::setTitle<\/a>"],[100,1,"<a href=\"notificationobj.php.html#44\">notificationobj::setAccept<\/a>"],[100,1,"<a href=\"notificationobj.php.html#47\">notificationobj::setNoteRead<\/a>"],[100,1,"<a href=\"notificationobj.php.html#50\">notificationobj::setnumberOf<\/a>"],[100,1,"<a href=\"notificationobj.php.html#53\">notificationobj::setMessage<\/a>"],[100,1,"<a href=\"notificationobj.php.html#56\">notificationobj::setConn<\/a>"],[100,1,"<a href=\"notificationobj.php.html#61\">notificationobj::CheckIfBlocked<\/a>"],[100,2,"<a href=\"notificationobj.php.html#74\">notificationobj::increaseNumberOf<\/a>"],[100,2,"<a href=\"notificationobj.php.html#98\">notificationobj::saveNotification<\/a>"],[100,1,"<a href=\"notificationobj.php.html#115\">notificationobj::saveFriendRequestNotification<\/a>"],[100,1,"<a href=\"notificationobj.php.html#125\">notificationobj::checkforfriendsNotification<\/a>"],[100,1,"<a href=\"notificationobj.php.html#135\">notificationobj::RemoveNotification<\/a>"],[100,1,"<a href=\"notificationobj.php.html#141\">notificationobj::block<\/a>"],[100,1,"<a href=\"notificationobj.php.html#149\">notificationobj::unblock<\/a>"],[0,1,"<a href=\"notificationobj.php.html#158\">notificationobj::findBlockedMembers<\/a>"],[100,4,"<a href=\"reportobj.php.html#26\">reportobj::validate<\/a>"],[100,1,"<a href=\"reportobj.php.html#33\">reportobj::setConn<\/a>"],[100,1,"<a href=\"reportobj.php.html#36\">reportobj::setUserId<\/a>"],[100,1,"<a href=\"reportobj.php.html#39\">reportobj::setResourceId<\/a>"],[100,1,"<a href=\"reportobj.php.html#42\">reportobj::setTopicId<\/a>"],[100,1,"<a href=\"reportobj.php.html#45\">reportobj::setOffenderId<\/a>"],[100,1,"<a href=\"reportobj.php.html#48\">reportobj::setType<\/a>"],[100,2,"<a href=\"reportobj.php.html#51\">reportobj::setReason<\/a>"],[0,1,"<a href=\"reportobj.php.html#62\">reportobj::setHTML<\/a>"],[0,4,"<a href=\"reportobj.php.html#70\">reportobj::getHTML<\/a>"],[100,1,"<a href=\"reportobj.php.html#112\">reportobj::closeReport<\/a>"],[100,1,"<a href=\"reportobj.php.html#125\">resourceReport::save<\/a>"],[100,1,"<a href=\"reportobj.php.html#139\">TopicReport::save<\/a>"],[100,1,"<a href=\"reportobj.php.html#153\">OffenderReport::save<\/a>"],[100,1,"<a href=\"resource.php.html#25\">resource::__construct<\/a>"],[100,4,"<a href=\"resource.php.html#29\">resource::ValidateTitle<\/a>"],[100,4,"<a href=\"resource.php.html#38\">resource::ValidateDescription<\/a>"],[100,21,"<a href=\"resource.php.html#46\">resource::ValidateType<\/a>"],[100,1,"<a href=\"resource.php.html#63\">resource::setConnection<\/a>"],[100,1,"<a href=\"resource.php.html#66\">resource::setResource_id<\/a>"],[100,1,"<a href=\"resource.php.html#69\">resource::setUser_id<\/a>"],[100,1,"<a href=\"resource.php.html#72\">resource::setCategory_id<\/a>"],[100,2,"<a href=\"resource.php.html#75\">resource::setTitle<\/a>"],[100,3,"<a href=\"resource.php.html#84\">resource::setFiletype<\/a>"],[100,2,"<a href=\"resource.php.html#96\">resource::setDescription<\/a>"],[100,3,"<a href=\"resource.php.html#105\">resource::setFilesize<\/a>"],[0,1,"<a href=\"resource.php.html#112\">resource::setRating<\/a>"],[100,1,"<a href=\"resource.php.html#120\">resource::getFilesize<\/a>"],[0,1,"<a href=\"resource.php.html#123\">resource::getDate<\/a>"],[0,1,"<a href=\"resource.php.html#126\">resource::getResource_id<\/a>"],[0,1,"<a href=\"resource.php.html#129\">resource::getUser_id<\/a>"],[100,1,"<a href=\"resource.php.html#132\">resource::getCategory_id<\/a>"],[100,1,"<a href=\"resource.php.html#135\">resource::getTitle<\/a>"],[100,1,"<a href=\"resource.php.html#138\">resource::getFiletype<\/a>"],[100,1,"<a href=\"resource.php.html#142\">resource::getDescription<\/a>"],[0,1,"<a href=\"resource.php.html#167\">resource::getHTML<\/a>"],[100,2,"<a href=\"resource.php.html#181\">resourceURL::ValidateURL<\/a>"],[80,2,"<a href=\"resource.php.html#189\">resourceURL::URLchecker<\/a>"],[100,2,"<a href=\"resource.php.html#198\">resourceURL::setUrl<\/a>"],[100,1,"<a href=\"resource.php.html#208\">resourceURL::getUrl<\/a>"],[100,1,"<a href=\"resource.php.html#213\">resourceURL::saveURL<\/a>"],[100,1,"<a href=\"resource.php.html#225\">resourceURL::updateURL<\/a>"],[80,2,"<a href=\"resource.php.html#244\">resourcedocument::setFilename<\/a>"],[100,1,"<a href=\"resource.php.html#253\">resourcedocument::setFilecontents<\/a>"],[100,1,"<a href=\"resource.php.html#258\">resourcedocument::getFilename<\/a>"],[100,1,"<a href=\"resource.php.html#261\">resourcedocument::getFilecontent<\/a>"],[100,1,"<a href=\"resource.php.html#266\">resourcedocument::saveResource<\/a>"],[0,2,"<a href=\"resource.php.html#283\">resourcedocument::updateResource<\/a>"],[0,1,"<a href=\"resource.php.html#304\">resourceobj::__construct<\/a>"],[0,16,"<a href=\"resource.php.html#311\">resourceobj::getHTML<\/a>"],[0,1,"<a href=\"resource.php.html#365\">user_owned_resourceobj::__construct<\/a>"],[0,16,"<a href=\"resource.php.html#372\">user_owned_resourceobj::getHTML<\/a>"],[100,1,"<a href=\"topicobj.php.html#13\">topicobj::__construct<\/a>"],[100,4,"<a href=\"topicobj.php.html#18\">topicobj::validateTitle<\/a>"],[100,4,"<a href=\"topicobj.php.html#26\">topicobj::validateDesc<\/a>"],[100,1,"<a href=\"topicobj.php.html#34\">topicobj::setUserId<\/a>"],[100,1,"<a href=\"topicobj.php.html#37\">topicobj::setConn<\/a>"],[100,1,"<a href=\"topicobj.php.html#40\">topicobj::setNum<\/a>"],[100,2,"<a href=\"topicobj.php.html#43\">topicobj::setTitle<\/a>"],[100,2,"<a href=\"topicobj.php.html#52\">topicobj::setDesc<\/a>"],[100,1,"<a href=\"topicobj.php.html#61\">topicobj::setCategory<\/a>"],[100,1,"<a href=\"topicobj.php.html#64\">topicobj::setTopicId<\/a>"],[100,1,"<a href=\"topicobj.php.html#67\">topicobj::setDate<\/a>"],[100,1,"<a href=\"topicobj.php.html#72\">topicobj::getDate<\/a>"],[100,1,"<a href=\"topicobj.php.html#75\">topicobj::getTitle<\/a>"],[100,1,"<a href=\"topicobj.php.html#78\">topicobj::getDesc<\/a>"],[100,1,"<a href=\"topicobj.php.html#81\">topicobj::getCategory<\/a>"],[100,1,"<a href=\"topicobj.php.html#84\">topicobj::getTopicId<\/a>"],[100,1,"<a href=\"topicobj.php.html#88\">topicobj::save<\/a>"],[100,1,"<a href=\"topicobj.php.html#100\">topicobj::upDateTopic<\/a>"],[0,2,"<a href=\"topicobj.php.html#112\">topicobj::getHTML<\/a>"]], 'Method Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getComplexityData(data, label) {
+    var values = [];
+    $.each(data, function(key) {
+      var value = Math.round(data[key][0]*100) / 100;
+      values.push({
+        x: value,
+        y: data[key][1],
+        class: data[key][2],
+        size: 0.05,
+        shape: 'diamond'
+      });
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+});
+  </script>
+ </body>
+</html>
