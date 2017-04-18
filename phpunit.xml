@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0"?>
 <phpunit>
  <testsuites>
@@ -17,4 +18,25 @@
 			<file>downloadHistoryobj.php</file>
 		</whitelist>
 	</filter>
+=======
+<?xml version="1.0"?>
+<phpunit>
+ <testsuites>
+ <testsuite name="tests">
+ <directory>tests</directory>
+ </testsuite>
+ </testsuites>
+	<filter>
+		<whitelist processUncoveredFilesFromWhitelist="true">
+			<file>commentobj.php</file>
+			<file>inboxitemobj.php</file>
+			<file>memberobj.php</file>
+			<file>notificationobj.php</file>
+			<file>resource.php</file>
+			<file>topicobj.php</file>
+			<file>reportobj.php</file>
+			<file>downloadHistoryobj.php</file>
+		</whitelist>
+	</filter>
+>>>>>>> origin/master
 </phpunit>
