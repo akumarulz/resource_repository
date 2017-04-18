@@ -110,5 +110,3 @@
         echo $response;
 }?></span>
 <!--add checked for matching passwords-->
-    
-
