@@ -23,4 +23,5 @@ class newuserobj{
 		return $result;
 	}	
 
-}?>
+}
+?>

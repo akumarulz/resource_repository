@@ -54,6 +54,4 @@ if($result){
 			echo 'error';
 			}
 }
-
-
 ?>

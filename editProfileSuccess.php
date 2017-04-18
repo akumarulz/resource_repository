@@ -6,6 +6,7 @@
     }, 3000);
 });
 </script>
-<div>
+<div class="confirm_box">
 	<?php if(isset($_POST['reply'])) echo '<p>'.$_POST['reply'].'</p>'; else echo '<p>Profile Updated</p>'; ?>
+    <img src="images/tick_16.png" alt="confirmation tick" />
 </div>

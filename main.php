@@ -37,7 +37,7 @@
 							</div>
 						</li>
 
-						<li class="dropdown"><a href="message">Forums</a>
+						<li class="dropdown"><a href="forums">Forums</a>
 							<div class ="dropdown-content">
 								<a href="forums">Forum</a>
 								<a href="newtopic">New topic</a>
@@ -60,7 +60,7 @@
 						</li>';
 						
 					if($is_admin=='Y')
-					{		echo '<li class="dropdown"><a href="#">Admin</a>
+					{		echo '<li class="dropdown"><a href="ManageUsers">Admin</a>
 							<div class="dropdown-content">
 								<a href="Reports">Reports</a>
 								<a href="ManageUsers">Manage Users</a>
