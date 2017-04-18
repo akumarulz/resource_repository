@@ -9,6 +9,8 @@
 		<script src="jquery-3.1.1.js"></script>
 		<script src="ascript.js" ></script>
 		<script src="jquery/jRating.jquery.js"></script>
+		<!-- adding icon to browser tab-->
+		<link rel="shortcut icon" type="image/x-icon" href="favicon.ico" /> /
 		
 	</head>
 
@@ -23,8 +25,8 @@
 						<li class="dropdown"><a href ="resources"> Resources</a>
 							<div class="dropdown-content">
 								<a href="resources">Search</a>
-								<a href="upLoadResource">Upload Resource</a>
-								<a href="linkresource_upload">Submit Link Resource</a>
+								<a href="upLoadResource">Upload File Resource</a>
+								<a href="linkresource_upload">Upload URL Resource</a>
 							</div>
 						</li>
 					
