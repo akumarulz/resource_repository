@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <?php
 require_once('connect.php');
 require_once('database_query.php');

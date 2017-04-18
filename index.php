@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 <?php
 require 'session.php';
 require 'autoload.php';

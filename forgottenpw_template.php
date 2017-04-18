@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <fieldset class="ResourceSubmissionForm">
 <legend>Reset Password</legend>
 	<p>Please enter your email address, a message will be sent here to reset your password.</p>

@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <?php
 function autoload($name){
 		

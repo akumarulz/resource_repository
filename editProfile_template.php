@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-
 	<h1>Your Work History</h1>
 	<form id="Form" action="insertWorkHistory.php" method="POST" >
 		<fieldset class ="profileEdit">

@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <h1>Your Personal Summary</h1>
 <form id="Form" action="insertWorkHistory.php" method="POST" >
 	<input type = "hidden" name="work[userid]" value="<?php echo $userid?>" />
