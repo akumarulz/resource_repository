@@ -62,7 +62,7 @@
 } ?>" required maxlength="255" /><br>
             </div>
             <div class="col-right">
-            <label for="location">Location</label><input id="location" type="text" name="user[location]" 
+            <label for="location">School Location</label><input id="location" type="text" name="user[location]" 
             value="<?php if (isset($user['location'])) {
                 echo $user['location'];
 } if (isset($member)) {
