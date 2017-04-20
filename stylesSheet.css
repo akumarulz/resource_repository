@@ -32,6 +32,15 @@ a {
 	right: 0;
     top: 16px;
 }
+.toggleRecommender, .url{
+	border-radius: 5px;
+    padding: 10px;
+    border: 0px solid rgb(207,163,139);
+    background: rgb(236, 219, 210);
+    color: rgb(75,47,31);
+    width: 100px;
+}
+
 
 input {
 	font-family: Calibri, Arial, sans-serif;
@@ -49,7 +58,7 @@ input[type="submit"] {
 	background: rgb(236, 219, 210);
 	color: rgb(75,47,31);
 	float:right;
-	width: 130px;
+	width: 120px;
 }
 
 input[type="file"] {
@@ -111,6 +120,10 @@ width : 200px;
 .commentreplybtn{
 	position: relative;
 	float: right;
+	border-radius:5px;
+	border: 0px solid rgb(207,163,139);
+	background: rgb(236, 219, 210);
+	color: rgb(75,47,31);
 }
 
 /*manage members style section*/
@@ -153,7 +166,6 @@ width : 200px;
     background: white;
 	width: 500px;
 	margin: auto;
-
 }
 
 ul.liveresourceSearch li:hover, ul.livesearch li:hover{
@@ -751,7 +763,7 @@ img.resource_summary_rating_stars{
 }
 .url{
 		float: right;
-	margin-left: 10px;
+	
 }
 .cancel_icon{
 	width:16px;
@@ -1084,9 +1096,12 @@ border-radius: 5px;
 	margin-top: 30px;
 }
 .showreplies{
-	
+	border-radius: 5px;
 	float: left;
 	margin-left: 200px;
+	border: 0px solid rgb(207,163,139);
+    background: rgb(236, 219, 210);
+    color: rgb(75,47,31);
 }
 .viewComments {
     width: 97%;
@@ -1231,8 +1246,6 @@ display:none;
 
 }
 
-/*message styles ends*/
-/*forum styling*/
 .forum_main_div{
 	padding: 10px; 
 	border: 1px solid lightgray;
@@ -1267,6 +1280,7 @@ display:none;
 	float:right;
 	padding-right: 10px;
 }
+
 .recommend_div{
 	margin-top: 10px;
 	padding: 10px; 

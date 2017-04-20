@@ -1,4 +1,3 @@
-<span class=""><?php if (isset($confirmed) != null) echo '<p>'.$confirmed.'</p>';?></span>
 <div class="login_div">
 	<h1>Login</h1>
 	<div id="login_summary_div">
@@ -10,25 +9,20 @@
 
 
 	</div>
-	<div class="login_box">
+	<div id="login_box">
 		<form id="login_form" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"].'?page=login');?>" method="POST">
-			<label for="login[email]">E-mail:</label>
+			<label for="login[email]">Email:</label>
 			<input type="text" name="login[email]" value="<?php if(isset($login['email'])) echo $login['email'];?>" required />
 			<label for="login[password]">Password:</label>
 			<input type="password" name="login[password]" required />
 			<br><br>
 			<input class="submit" type="submit" value="submit" />
-			
+			<a id="reg_link" href="register">Register</a>
 		</form>
-		
-	<a id="login_forgot_password" href="forgottenpw"><p>Forgotten Password</p></a>
-		
-	</div>
-	<div class="login_box2">
-		<h4>New user Registration</h4>
-		<a id="reg_link" href="register">Register</a>
-		
+		<br><br><br>
+	<a id="login_forgot_password" href="forgottenpw">Forgotten Password</a>
 	
+		<span class=""><?php if (isset($confirmed) != null) echo $confirmed;?></span>
 	</div>	
 
 </div>

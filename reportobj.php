@@ -76,7 +76,7 @@ public function getHTML():string{
 			$result = $result.'<th>Submitted</th>';
 			$result = $result.'<th>BY</th>';
 			$result = $result.'<th>Description</th>';
-			$result = $result.'<th>Delt by</th>';
+			$result = $result.'<th>Dealt by</th>';
 			$result = $result.'<th></th>';
 		$result = $result.'</tr>';
 	$result = $result.'</thead>';

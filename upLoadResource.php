@@ -15,7 +15,6 @@
 		request.send(data);
 		return false;
 };
-
 </script>
 <?php
 require_once('cleantext.php');

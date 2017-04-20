@@ -34,11 +34,7 @@
             </select>
             <br>
             <br><label for="fname">Firstname</label><input id="fname" type="text" name="user[first_name]" 
-            value="<?php if (isset($user['first_name'])) {
-                echo $user['first_name'];
-} if (isset($member)) {
-    echo $member->getFirstname();
-}?>" required maxlength="255" /> <br>
+            value="<?php if (isset($user['first_name'])) {echo $user['first_name'];} if (isset($member)) {echo $member->getFirstname();}?>" required maxlength="255" /> <br>
             <br>
             <label for="sname">Middle name (optional)</label><input id="sname" type="text" name="user[middle_name]" 
             value="<?php if (isset($user['middle_name']) != null) {

@@ -61,18 +61,19 @@
 								</div>
 						</li>';
 						
-					if($is_admin=='Y')
-					{		echo '<li class="dropdown"><a href="ManageUsers">Admin</a>
-							<div class="dropdown-content">
-								<a href="Reports">Reports</a>
-								<a href="ManageUsers">Manage Users</a>
-								<a href="Managespecialistareas">Manage Specialist Areas</a>
-							</div>
-						
-						</li>
-							</ul>
-			</div>';
-					}
+						if($is_admin=='Y')
+						{		echo '<li class="dropdown"><a href="ManageUsers">Admin</a>
+								<div class="dropdown-content">
+									<a href="Reports">Reports</a>
+									<a href="ManageUsers">Manage Users</a>
+									<a href="Managespecialistareas">Manage Specialist Areas</a>
+								</div>
+							
+							</li>
+								</ul>
+							</div>';
+						}
+
 						echo '<div class="log"><a href="logout">logout</a></div>';
 					}else{
 						echo '<li class="dropdown"><a href="login">login</a></li>';

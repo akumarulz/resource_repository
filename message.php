@@ -3,11 +3,12 @@
 $user = null;
 $user_id = $_SESSION['user_id'];
 $allusers = new database_query($pdo,'users');
+$var = new database_query($pdo,'users');
 if(isset($_GET['user_id'])){
 	
 	$array = ['user_id'=>$_GET['user_id']] ;
 	$allusers = $var->selectcols($array);
-	$user = $allusers[0]['user_id'];
+	$user = $allusers;
 	
 }
 

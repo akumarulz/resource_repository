@@ -1,4 +1,3 @@
-
 <?php
 require 'session.php';
 require 'autoload.php';
@@ -10,6 +9,7 @@ require 'template_loader.php';
 if(!isset($_GET['page'])){
 	require $_GET['page'] = 'login.php';
 }else{
+
 	require $_GET['page'].'.php';
 }
 

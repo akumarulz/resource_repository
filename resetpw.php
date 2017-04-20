@@ -11,7 +11,7 @@ if(isset($_POST['user'])){
 $user_id = $_POST['user']['user_id'];
 	$var = new database_query($pdo,'users');
 		
-	if ($_POST['user']['checker']==="1"){
+	if ($_POST['user']['checker']=="1"){
 
 			try{
 				$pwRset = new memberobj();
@@ -23,11 +23,11 @@ $user_id = $_POST['user']['user_id'];
 					throw new Exception("Error, please try again");
 				}			
 			}catch(exception $e){
-				$error = $e->getMessage();
+			$error = $e->getMessage();
 			}
 
 		}else{
-			$error = "Passwords do not match";
+			$error = "<br>Passwords do not match";
 		}
 }
 

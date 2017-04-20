@@ -9,7 +9,7 @@ $redirect = (isset($page)) ? $page : 'login';
     // Handler for .ready() called.
     window.setTimeout(function () {
         location.href = "<?php echo $_SERVER["PHP_SELF"].'?page='.$redirect; ?>";
-    }, 5000);
+    }, 3000);
 });
 </script>
 <div class="confirm_box">

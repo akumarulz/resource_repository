@@ -279,7 +279,7 @@ $.fn.upload = function(remote, data, successFn, progressFn) {
 		$(":file").upload("save_file.php",{user:id},function(success){
 			$(":file").val('');
 						
-			if( $.trim(success.substr(6,2)) == 'da'){
+			if( $.trim(success.substr(0,6)) == 'data'){
 					$("#profileavatar_profile_page").attr("src",success);
 					$("#imgReply").html('');
 			}else{
@@ -370,13 +370,13 @@ $.fn.upload = function(remote, data, successFn, progressFn) {
 		function(info){
 			$("#checker").val(info);
 			
-			if(info === '1'){
+			if($.trim(info) === '1'){
+				
 				$(".confirmPw").attr("src","images/tick.png");
 					}else{
 						$("#checker").val('-1');
 				$(".confirmPw").attr("src","images/cross.png");
 			}
-			
 		});
 	});
 	
