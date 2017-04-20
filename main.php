@@ -41,8 +41,8 @@
 
 						<li class="dropdown"><a href="forums">Forums</a>
 							<div class ="dropdown-content">
-								<a href="forums">Forum</a>
-								<a href="newtopic">New topic</a>
+								<a href="forums">Search Forums</a>
+								<a href="newtopic">Create New Topic</a>
 								
 							</div>
 						</li>
