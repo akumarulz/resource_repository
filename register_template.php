@@ -94,7 +94,8 @@
             
             <br>
             <input type="submit" <?php if (isset($member)) {
-                echo 'value="Edit Details" name="Edit"';
+                echo 'value="SAVE" name="Edit"';
+                //recent change from Edit Details
 } ?> />
         </form>
 </div>
