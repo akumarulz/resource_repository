@@ -32,7 +32,8 @@
 				If you have uploaded a file in error, you can replace it by selecting it here.</p>'; ?>
 				<input type="file" name="resourcedoc"  />
 				<input type="submit" />
+				
 		</form>
 		<span id="Reply" ><?php if(isset($error)) echo $error;?></span>
-
+		<div class="tooltip tooltip_wh"><img src="images/questionmark.png" alt="a question mark for a tool tip"/> <span class="tooltiptext">Please describe what the file contains and how it can be of benefit to the teacher who may use it. Most microsoft document file types accepted, max size for video 200MB. Please only upload files pertaining to computing subjects or it may be removed.</span></div>
 	</div>

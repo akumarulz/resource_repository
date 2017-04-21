@@ -1291,5 +1291,35 @@ display:none;
 	display: none;
 	position:relative;
 	box-sizing:border-box;
+}
+.tooltip{
+	float: right;
+	margin-right: 130px;
+    margin-top: -34px;
+}
+.tooltip img{
+	width:30px;
+	height: 30px;
+}
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 190px;
+    background-color: #fff2e6;
+    color: black;
+    text-align: center;
+    padding: 5px 5px;
+    border-radius: 6px;
+	    /* Position the tooltip text - see examples below! */
+    position: absolute;
+    z-index: 1;
+}
 
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+.tooltip_wh{
+	float: left;
+	margin-right: 0px;
+    margin-top: 0px;
 }

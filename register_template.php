@@ -75,12 +75,12 @@
                 <?php if (isset($member)) {
                     echo '<p>To change your password please enter the new password below, other wise leave blank.</p>';
 }?>
-            <label for="pw">Password</label><input id="pw" type="password" name="user[password]" 
+            <label for="pw">Password</label><input  id="pw" type="password" name="user[password]" 
             value="<?php if (isset($user['password'])) {
                 echo $user['password'];
 }?>" <?php if (!isset($member)) {
     echo 'required maxlength="255"';
-} ?> /> <br>
+} ?> /> <br><div class="tooltip"><img src="images/questionmark.png" alt="a question mark for a tool tip"/> <span class="tooltiptext">Password must be atleast 8 characters long</span></div>
             <br>
             <label for="ckpw">Re-enter Password</label><input id="ckpw" type="password" <?php if (!isset($member)) {
                 echo 'required maxlength="255"';

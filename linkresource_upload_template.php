@@ -28,6 +28,8 @@
 
 	</form>
 	<span id="output" ><?php if(isset($msg)) echo $msg; ?></span>
+	<div class="tooltip tooltip_wh"><img src="images/questionmark.png" alt="a question mark for a tool tip"/> <span class="tooltiptext">The description should breifly describe what the URL is about and how it can benefit a teacher who may use it. Only submit URL's pertaining to computing or they may be removed.</span></div>
+	
 </div>
 
 
