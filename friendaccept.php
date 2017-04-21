@@ -10,7 +10,6 @@ if ($_SERVER['REQUEST_METHOD'] ==='POST'){
 	$them = cleantext($_POST['friendID']);
 	$notificationId = cleantext($_POST['id']);
 	
-	
 	$newfriend = new friendsobj();
 	$newfriend->setRecieverid($me);
 	$newfriend->setFromid($them);
@@ -26,6 +25,4 @@ if ($_SERVER['REQUEST_METHOD'] ==='POST'){
 			}
 		}	
 }
-
-
 ?>

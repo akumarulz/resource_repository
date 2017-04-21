@@ -1,6 +1,4 @@
-
 <?php
-
 $valid=null;
 $user_id = $_GET['user_id'];
 $template = 'resetpw_template.php';
@@ -49,6 +47,4 @@ $templateVars = [
 		
 		$title = $heading;
 		$content = loadTemplate($template,$templateVars);
-
-
 ?>

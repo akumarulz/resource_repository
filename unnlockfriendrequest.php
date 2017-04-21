@@ -1,4 +1,3 @@
-
 <?php
 if(strtoupper($_SERVER['REQUEST_METHOD']) === 'GET') {
 require_once('connect.php');
@@ -12,6 +11,4 @@ $saved = $unblock->unblock();
 		echo '1';
 	}
 }
-
-
 ?>

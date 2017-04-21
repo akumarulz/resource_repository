@@ -1,4 +1,3 @@
-
 <?php
 require_once('cleantext.php');
 //user id of logged in user
@@ -11,7 +10,6 @@ $column = 'resource_id';
 $clean = cleantext($_GET['resource_id']);
 $tablename ='discussion';
 $get_comments = new database_query($pdo,$tablename);
-
 
 //get all comments from the table organised by date
 $found_comments = $get_comments->getComments($column, $clean);
@@ -50,5 +48,4 @@ $result = $var->selectFTall($column,$clean);
 	 $title ='Blocked';
 	 $content = loadinnerTemplate('error_template.php');
  }
-
 ?>

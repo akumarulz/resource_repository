@@ -7,8 +7,6 @@ if(strtoupper($_SERVER['REQUEST_METHOD']) === 'POST' && $_POST['report']['close'
 	$user_id = $_POST['report']['user_id'];
 	$reported_id = $_POST['report']['reported_id'];
 	
- 
-
 	$reply = null;
 	switch($type){
 		case 'Offender': 

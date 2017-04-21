@@ -41,6 +41,4 @@ if(isset($_FILES['profile'])){
 		echo $error;
 	}
 }
-
-
 ?>

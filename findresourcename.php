@@ -26,5 +26,4 @@ if(strlen($_POST['search']) > 1){
 		}
 	}
 }
-
 ?>

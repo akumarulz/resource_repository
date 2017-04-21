@@ -1,4 +1,3 @@
-
 <h1>Search Members</h1>
 <div class="resource_side_div">
 

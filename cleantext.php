@@ -6,5 +6,4 @@ function cleantext($val){
 		$val = str_replace("£","",$val);
 		return $val;
 	}
-
 ?>

@@ -44,8 +44,5 @@ if($results){
     }
     echo 'Messages sent:'.$i;
 }
-
-
 }
 ?>
-

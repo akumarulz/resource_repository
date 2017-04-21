@@ -73,6 +73,5 @@ public function setConnection(database_query $conn){
         $temp['comment_id'] = $this->comment_id;
         return $this->connect->remove($temp);
     }
-
 }
 ?>

@@ -1,7 +1,5 @@
 <?php
-
 class commentsobj{
-
 private $conn;
 private $comment=[];
 private $is_admin;

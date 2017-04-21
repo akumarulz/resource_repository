@@ -1,4 +1,3 @@
-
 $(document).ready(function(){
 	
 	//remove blocking from friend request
@@ -395,24 +394,7 @@ $.fn.upload = function(remote, data, successFn, progressFn) {
 				$(".sortArrow").attr("src","images/raise.png");
 			}
 	});
-	
-	//forum search 
-	/*$("#forum_search").submit(function(event){
-		event.stopPropagation();
-			event.preventDefault();
-			$.post($(this).attr("action"),
-		$(this).serializeArray(),
-		function(info){
 		
-			if($.trim(info) === '-1'){
-				alert('no results found');
-			}else{
-				var result = JSON.parse(info);
-				$(".resource_main_div").load('forum_result.php',{result});
-			}
-		});
-	});*/
-	
 	//report input
 	$("#reportinput").submit(function(event){
 		event.stopPropagation();
@@ -437,50 +419,7 @@ $.fn.upload = function(remote, data, successFn, progressFn) {
 		});
 	});
 	
-	//get resource id for blocking users form
-	/*$("#Rid").keyup(function(){
-		var idnumber = $.trim($("#Rid").val());
-				var result;
-		if($('#topic').is(':checked') || $('#backinTopic').is(':checked')){
-			$.post('findresource.php',
-			{topic_id:idnumber},
-			function(success){
-				if ($.trim(success)=='Not Found'){
-					$("#title").html(success);
-					$("#date").html('');
-					$("#confirmblock").val('0');
-					
-				}else{
-					result = JSON.parse(success);
-					
-					$("#title").html(result.title);
-					$("#date").html(result.date);
-					$("#confirmblock").val('1');
-					
-				}
-			});
-		
-		}else{
-			$.post('findresource.php',
-			{resource_id:idnumber},
-			function(success){
-				if ($.trim(success)=='Not Found'){
-					$("#title").html(success);
-					$("#date").html('');
-					$("#confirmblock").val('0');
-					
-				}else{
-				 result = JSON.parse(success);
-				
-				$("#title").html(result.title);
-				$("#date").html(result.date);
-				$("#confirmblock").val('1');
-				
-				}
-			});
-			
-		}
-	});*/
+	
 	
 	$("#Rid").keyup(function(){
 		var name = $(this).val();
@@ -574,12 +513,7 @@ $.fn.upload = function(remote, data, successFn, progressFn) {
 		$("#selectedOption").val(name);
 	});
 	
-	/*$("#liveresourceSearch").focusout(function(){
-		//$("#liveresourceSearch").empty();
-	});
-	$("#livesearch").focusout(function(){
-		//$("#livesearch").empty();
-	});*/
+	
 	
 	$(".messageiconbin").click(function(){
 		var select = $(this);

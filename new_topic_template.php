@@ -1,5 +1,3 @@
-
-
 <?php if(isset($editTopic) != null || (isset($forum['topic_id']) && $forum['topic_id'] > 0)) echo '<h1>Edit Topic</h1>'; else echo '<h1>New Topic</h1>' ?>
 	<fieldset class="ResourceSubmissionForm">
 		<?php if(isset($editTopic) != null || (isset($forum['topic_id']) && $forum['topic_id'] > 0)) echo '<legend>Edit Topic</legend>'; else echo '<legend>Start New Topic</legend>' ?>
@@ -25,4 +23,3 @@
 			<p>All fields are required</p>
 			<span><?php if (isset($Emessage)) echo $Emessage; ?> </span>
 	</fieldset>
-

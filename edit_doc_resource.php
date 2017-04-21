@@ -11,7 +11,6 @@ function editResourceDetails($resources,$resource){
 	if($valid){
 		$resources->update($resource,'resource_id');
 	}
-	return $valid;
-	
+	return $valid;	
 }
 ?>

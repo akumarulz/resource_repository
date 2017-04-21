@@ -1,4 +1,3 @@
-
 <?php
 require_once('connect.php');
 require_once('database_query.php');
@@ -8,5 +7,4 @@ $result = $remove->remove($array);
 if($result){
     echo'1';
 }
-
 ?>

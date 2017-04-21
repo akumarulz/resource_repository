@@ -1,4 +1,3 @@
-
  <h1>Search Resources</h1>	
 <div class="resource_side_div">
 
@@ -78,11 +77,8 @@ if(sizeof($docs)>0 ){
 			$rows['resource_id'] = new resourceobj($rows,$connect,$userID,$dbconn);
 			echo $rows['resource_id']->getHTML();
 		}
-	
 }else{
 	echo 'No Results';
 }
-	
 	?>
-
 </div>

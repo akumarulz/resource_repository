@@ -9,9 +9,6 @@ if(isset($_POST)){
 	
 	$error = null;
 	//contruct table name and query class object
-	
-	
-		
 	if(isset($_POST['work']['establishment'])){
 		$var = new database_query ($pdo,'workhistory');
 		
@@ -71,18 +68,14 @@ if(isset($_POST)){
 			$array = [
 			'user_id' => $userid,
 			'subject_id'=>$row
-			];
-		
+			];	
 			$result = $var->insert($array);
 		}
 	}
-	
 		if($error != null){
 			echo $error;
 		}else{
 			echo 'Saved';
-		}
-	
+		}	
 }
-
 ?>
