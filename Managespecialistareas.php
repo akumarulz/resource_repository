@@ -1,4 +1,3 @@
-
 <?php
 	require_once('cleantext.php');
 	$adminuserid = $_SESSION['user_id'];
@@ -71,6 +70,4 @@
 		$title ='Error';
 	$content = loadinnerTemplate('error_template.php');	
 	}
-
-
 ?>

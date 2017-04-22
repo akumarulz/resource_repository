@@ -1,15 +1,12 @@
-
 <?php
 $user = null;
 $user_id = $_SESSION['user_id'];
 $allusers = new database_query($pdo,'users');
-$var = new database_query($pdo,'users');
+
 if(isset($_GET['user_id'])){
-	
+	//retrieve name and id of user selected to send a message to. 
 	$array = ['user_id'=>$_GET['user_id']] ;
-	$allusers = $var->selectcols($array);
-	$user = $allusers;
-	
+	 $user = $allusers->selectcols($array);
 }
 
 //retrieve all messages for this member
@@ -25,6 +22,4 @@ $result = $allmessages->selectcol($getMessages);
 	];
 	$title = 'send message Page';
 	$content = loadTemplate('message_template.php', $templateVars);
-
-
 ?>

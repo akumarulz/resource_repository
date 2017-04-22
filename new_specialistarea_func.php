@@ -1,4 +1,3 @@
-
 <?php
 function newSpecialarea($specialistareas,$area){
 	$valid = true;
@@ -12,5 +11,4 @@ function newSpecialarea($specialistareas,$area){
 	}
 	return $valid;
 }
-
 ?>

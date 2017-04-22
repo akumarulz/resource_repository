@@ -1,13 +1,10 @@
-
 <?php
-
 $useid = $_SESSION['user_id'];
 $errorMsg = null;
 $var = new database_query($pdo,'users');
 
 if($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['Edit'])){
-	
-	
+		
 	try{
 		$member = new memberobj();
 		$member->setUser_id($_POST['user']['user_id']);

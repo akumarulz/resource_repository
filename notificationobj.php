@@ -14,8 +14,6 @@ private $numberOf;
 private $message;
 private $conn;
 private $column;
-
-
 //setters
 public function setNotificationId(int $id){
     $this->notificationid = $id;

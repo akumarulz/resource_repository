@@ -1,4 +1,3 @@
-
 <?php
 $userid = $_SESSION['user_id'];
 require_once('cleantext.php');

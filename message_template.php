@@ -1,4 +1,3 @@
-
 <h1>Messages</h1>
 <div class="message-submit-form"> 
 	<h2>Send Message</h2>

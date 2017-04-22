@@ -1,4 +1,3 @@
-
 <?php
 class newuserobj{
 	private $user=[];
@@ -22,6 +21,5 @@ class newuserobj{
 		$result = $result.'</div>';
 		return $result;
 	}	
-
 }
 ?>

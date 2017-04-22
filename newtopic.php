@@ -1,6 +1,4 @@
-
 <?php
-
 $is_admin = $_SESSION['is_admin'];
 $user_id = $_SESSION['user_id'];
 $date = date("Y-m-d h:i:s");
@@ -24,8 +22,7 @@ if(strtoupper($_SERVER['REQUEST_METHOD']) === 'GET' && isset($_GET['topic'])) {
 if(isset($_POST['forum'])){
 
 try{
-	
-		$newTopic = new topicobj($array);
+			$newTopic = new topicobj($array);
 			if($_POST['forum']['topic_id'] > 0){
 				$newTopic->setTopicId($_POST['forum']['topic_id']);
 			}
@@ -87,5 +84,4 @@ try{
 	$title = 'New Topic Page';
 	$content = loadTemplate('new_topic_template.php', $templateVars);
 }
-
 ?>

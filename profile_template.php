@@ -31,9 +31,6 @@
 		<fieldset class="profile_fieldset">
 	<legend>Work History :</legend>
 	
-	
-	
-	
 	<!--<div class="profile_work_history">-->
 		<?php 
 		if(sizeof($workHistoryArray) > 0){

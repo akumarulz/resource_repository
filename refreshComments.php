@@ -3,7 +3,6 @@
 require_once('connect.php');
 require_once('autoload.php');
 if(strtoupper($_SERVER['REQUEST_METHOD']) === 'POST') {
-
 	
 	$users = new database_query($pdo,'users');
 	$user_id=$_POST['user_id'];
@@ -14,12 +13,10 @@ if(strtoupper($_SERVER['REQUEST_METHOD']) === 'POST') {
 	$result = $users->selectcols($findis_admin);
 		$is_admin = $result['is_admin'];
 	
-	
 	$getComments = new database_query($pdo,'discussion');
 	
 	$comments = $getComments ->getComments($column, $id);
-	
-	
+		
 		echo '<script >
 		$(".showreplies").click(function(event){
 			var select = $(this);
@@ -51,6 +48,4 @@ if(strtoupper($_SERVER['REQUEST_METHOD']) === 'POST') {
 				//echo'</ul>';
 			}		
 }
-
-
 ?>
