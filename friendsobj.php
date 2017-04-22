@@ -44,6 +44,4 @@ class friendsobj{
         return $this->conn->remove($temp);
     }
 }
-
-
 ?>

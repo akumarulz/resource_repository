@@ -14,8 +14,6 @@ if ($_SERVER['REQUEST_METHOD'] ==='POST'){
 		$ids = explode('-',$_POST['request']['user_id']);
 		$requester = cleantext($ids[0]);
 		$potential = cleantext($ids[1]);
-		
-		
 		$notification = new database_query($pdo,'notifications');
 		$friends = new database_query($pdo,'friends');
 		

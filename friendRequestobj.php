@@ -4,9 +4,8 @@ class friendrequestobj{
 	
 	public function __construct($in_item){
 		$this->item[]=$in_item;
-		
-	}
 	
+	}
 	function getHTML(){
 		$result='<div class ="summary_notification">';
 		$result = $result.'<div class="summary_notification_timedate"><p>'.date( 'jS M Y',strtotime($this->item[0]['date'])).'</p></div>';
@@ -16,8 +15,6 @@ class friendrequestobj{
 		//$result = $result.'<a href="#" ><img class="cancel_icon" src="images/cancel.png" /></a><br><br>';
 		$result = $result.'</div>';		
 		return $result;
-	}
-	
+	}	
 }
-
 ?>
