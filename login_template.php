@@ -2,11 +2,15 @@
 <div class="login_div">
 	<h1>Login</h1>
 	<div id="login_summary_div">
-	<h3>About this site</h3>
-	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vitae elit gravida, 
-			pretium magna et, viverra odio. Fusce facilisis mauris a consectetur dapibus. Cras vitae
-			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vitae elit gravida, 
-			pretium magna et, viverra odio. Fusce facilisis mauris a consectetur dapibus. Cras vitae</p>
+	<h3>Welcome to Teacher Share</h3>
+	<p>We at <b>Teacher Share</b> value knowledge, and knowledge shared is wisdom emparted on to all.<br> We have provided a tool for 
+	  teachers to share their knowledge, experience and skills within all computing topics such as programming in java, HTML 
+	  and databases. The aim is to improve the standard of education in computing around the country and encourage more students
+	  to take up the subject at a degree level and lead onto a successful career. <br> Upload and share lesson plans you may of created, submit a URL of a great
+	  website you have come across and would like others to know about. <br> Rate and discuss resources you have used and tell others about your experience with it, 
+	  or contribute to one of the many forums that may be discussing a topic you are interested in. <br>
+	  Make new friends and increase your confidence and skill.
+	   </p>
 
 
 	</div>

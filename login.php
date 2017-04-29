@@ -37,7 +37,8 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
 			if($result['confirmed']=='N'){
 				$templateVars = [
 					'page'=>'login',
-					'reply'=>'Account unconfirmed, please go to your email inbox and follow the link'
+					'reply'=>'Account unconfirmed, please go to your email inbox and follow the link',
+					'resend'=>$result['email']
 				];
 					
 					$title = 'Unconfirmed';

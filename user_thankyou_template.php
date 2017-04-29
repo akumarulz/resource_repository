@@ -9,10 +9,11 @@ $redirect = (isset($page)) ? $page : 'login';
     // Handler for .ready() called.
     window.setTimeout(function () {
         location.href = "<?php echo $_SERVER["PHP_SELF"].'?page='.$redirect; ?>";
-    }, 3000);
+    }, 4000);
 });
 </script>
 <div class="confirm_box">
 	<?php echo $response = (isset($reply)) ? '<p>'.$reply.'</p>' : '<p>Thank you</p>'; ?>
     <img src="images/tick_16.png" alt="confirmation tick" />
+    <?php if(isset($resend)) echo '<a href ="'.$resend.'" class="resend"><p>RESEND?</p></a>'; ?>
 </div>

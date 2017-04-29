@@ -604,6 +604,19 @@ $.fn.upload = function(remote, data, successFn, progressFn) {
 		
 		$(".emailRecommendation").parent().toggle();
 	});
+
+	$(".resend").click(function(event){
+		event.stopPropagation();
+			event.preventDefault();
+			var select = $(this);
+			var email = select.attr('href');
+			
+			$.get("ResendConfirmation.php",{email:email},function(info){
+				if($.trim(info)=='sent'){
+					alert("Sent");
+				}
+			});
+	});
 //*****************************************************
 //end of document loader		
 });
