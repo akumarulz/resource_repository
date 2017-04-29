@@ -14,6 +14,7 @@ $redirect = (isset($page)) ? $page : 'login';
 </script>
 <div class="confirm_box">
 	<?php echo $response = (isset($reply)) ? '<p>'.$reply.'</p>' : '<p>Thank you</p>'; ?>
-    <img src="images/tick_16.png" alt="confirmation tick" />
-    <?php if(isset($resend)) echo '<a href ="'.$resend.'" class="resend"><p>RESEND?</p></a>'; ?>
+    <?php $image = (!isset($resend))? 'images/tick_16.png': 'images/stop.png'; ?>
+    <img src="<?php echo $image?>" alt="confirmation tick" />
+    <?php if(isset($resend)) echo '<a href ="'.$resend.'" class="resend" ><p>RESEND?</p></a>'; ?>
 </div>
